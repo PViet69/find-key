@@ -61,7 +61,7 @@ def docfile(tenfile:str):
             return [dongdau,dongsau]
                      
     except FileNotFoundError:
-        return 1
+        return 12
         
 def main():
     a= phuthuocham("AB","D")
